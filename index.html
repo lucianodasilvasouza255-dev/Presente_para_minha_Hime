@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para minha Hime ❤️</title>
+
+    <link rel="stylesheet" href="hime.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <p class="subtitle" id="subtitle">
+            Fiz algo especial para você...
+        </p>
+
+        <button
+            class="heart-button"
+            id="heartButton"
+            aria-label="Clique para abrir sua surpresa"
+        >
+            <svg
+                class="heart-svg"
+                viewBox="0 0 300 280"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <defs>
+                    <clipPath id="heartClip">
+                        <path d="M150 260
+                            C125 235 15 160 15 88
+                            C15 18 100 0 150 65
+                            C200 0 285 18 285 88
+                            C285 160 175 235 150 260 Z"/>
+                    </clipPath>
+                </defs>
+
+                <g clip-path="url(#heartClip)" id="wordHeart"></g>
+            </svg>
+
+            <span class="click-hint" id="clickHint">
+                Toque no coração ❤️
+            </span>
+        </button>
+
+        <section class="message" id="message" aria-hidden="true">
+            <p class="love-quote">
+                Se meu coração fosse um jardim, você seria aquela
+                flor que eu cuidaria com todo o carinho do mundo,
+                não para possuí-la, mas para vê-la florescer cada
+                vez mais bonita.
+            </p>
+
+            <p class="signature">te amo, Hime ♡</p>
+        </section>
+
+        <p class="footer" id="footer">
+            Feito com amor, especialmente para você.
+        </p>
+
+    </main>
+
+    <script src="hime.js"></script>
+</body>
+</html>
